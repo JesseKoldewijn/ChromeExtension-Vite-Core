@@ -1,0 +1,45 @@
+{
+	"name": "chrome-extension",
+	"version": "1.0.0",
+	"description": "A Chromium extension built with Vite, TypeScript, SolidJS, and Tailwind CSS v4",
+	"type": "module",
+	"scripts": {
+		"dev": "vite build --watch",
+		"build": "vite build",
+		"watch": "vite build --watch",
+		"preview": "vite preview",
+		"type-check": "tsc --noEmit",
+		"test": "vitest",
+		"test:ui": "vitest --ui",
+		"test:run": "vitest run",
+		"test:coverage": "vitest run --coverage",
+		"test:e2e": "playwright test",
+		"test:e2e:ui": "playwright test --ui"
+	},
+	"dependencies": {
+		"solid-js": "^1.9.9"
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.56.1",
+		"@tailwindcss/vite": "^4.1.15",
+		"@types/chrome": "^0.1.24",
+		"@types/jsdom": "^27",
+		"@types/node": "^24.9.1",
+		"@vitest/ui": "^4.0.1",
+		"happy-dom": "^20.0.8",
+		"jsdom": "^27.0.1",
+		"playwright": "^1.56.1",
+		"tailwindcss": "^4.1.15",
+		"typescript": "^5.9.3",
+		"vite": "^7.1.11",
+		"vite-plugin-scope-tailwind": "^2.0.2",
+		"vite-plugin-solid": "^2.11.10",
+		"vite-plugin-web-extension": "^4.4.5",
+		"vitest": "^4.0.1"
+	},
+	"packageManager": "yarn@4.10.3+sha512.c38cafb5c7bb273f3926d04e55e1d8c9dfa7d9c3ea1f36a4868fa028b9e5f72298f0b7f401ad5eb921749eb012eb1c3bb74bf7503df3ee43fd600d14a018266f",
+	"volta": {
+		"node": "25.0.0",
+		"yarn": "4.10.3"
+	}
+}
