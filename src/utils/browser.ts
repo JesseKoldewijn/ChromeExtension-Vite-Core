@@ -385,7 +385,7 @@ export const browser = {
 	/**
 	 * Get browser name
 	 */
-	getBrowserName(): string {
+	getBrowserName() {
 		if (this.is.brave()) return "Brave";
 		if (this.is.edge()) return "Edge";
 		if (this.is.opera()) return "Opera";
